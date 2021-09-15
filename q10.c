@@ -46,8 +46,9 @@ void recurse_print(int *nums, int current_index) {
 }
 
 
-int main(void)
+int main(int argc, char* argv[])
 {
+
     int nums[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3};
     int i=0;
     for ( i = 0; i < 10; ++i) {
